@@ -43,7 +43,7 @@ jobs:
           echo "$SSH_KEY" >> key
           chmod 600 key
           rsync -av -e "ssh -i key -p $SSH_PORT -l $SSH_USER -o StrictHostKeyChecking=no" $SSH_HOST:~/dredmor .
-          cp -r dredmor/* ./
+          cp -r --update=none dredmor/* ./
           rm -rf dredmor
           rm key
       - name: XML Fixes

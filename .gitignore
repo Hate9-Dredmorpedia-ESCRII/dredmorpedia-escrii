@@ -6,18 +6,73 @@ data/*
 !data/game/
 data/game/*
 !data/game/mod.xml
+!data/game/manTemplateDB.xml
+!data/game/skillDB.xml
+!data/game/spellDB.xml
+
+!data/skills/
+!data/skills/armshot32.png
+!data/skills/armshot64.png
+!data/skills/Copy of armshot32.png
+!data/skills/Copy of armshot64.png
+!data/skills/Copy of eyeshot32.png
+!data/skills/Copy of eyeshot64.png
+!data/skills/Copy of headshot32.png
+!data/skills/Copy of headshot64.png
+!data/skills/Copy of legshot32.png
+!data/skills/Copy of legshot64.png
+!data/skills/Copy of soulshot32.png
+!data/skills/Copy of soulshot64.png
+!data/skills/dazed32.png
+!data/skills/dazed64.png
+!data/skills/deadarm32.png
+!data/skills/deadarm64.png
+!data/skills/deadhead32.png
+!data/skills/deadhead64.png
+!data/skills/deadsoul32.png
+!data/skills/deadsoul64.png
+!data/skills/eyeshot32.png
+!data/skills/eyeshot64.png
+!data/skills/headshot32.png
+!data/skills/headshot64.png
+!data/skills/legshot32.png
+!data/skills/legshot64.png
+!data/skills/ruinedarm32.png
+!data/skills/ruinedarm64.png
+!data/skills/ruinedeye32.png
+!data/skills/ruinedeye64.png
+!data/skills/ruinedhead32.png
+!data/skills/ruinedhead64.png
+!data/skills/ruinedleg32.png
+!data/skills/ruinedleg64.png
+!data/skills/ruinedsoul32.png
+!data/skills/ruinedsoul64.png
+!data/skills/skill_avenge_your_father_small.png
+!data/skills/sniper32.png
+!data/skills/sniper64.png
+!data/skills/soulshot32.png
+!data/skills/soulshot64.png
+!data/skills/stunned32.png
+!data/skills/stunned64.png
+!data/skills/unskilled_weapon_small.png
 
 expansion/*
 !expansion/game
 expansion/game/*
 !expansion/game/mod.xml
+!expansion/game/skillDB.xml
+!expansion/game/spellDB.xml
 
 expansion2/*
 !expansion2/game
 expansion2/game/*
 !expansion2/game/mod.xml
+!expansion2/game/skillDB.xml
+!expansion2/game/spellDB.xml
 
 expansion3/*
 !expansion3/game
 expansion3/game/*
 !expansion3/game/mod.xml
+!expansion3/game/skillDB.xml
+!expansion3/game/spellDB.xml
