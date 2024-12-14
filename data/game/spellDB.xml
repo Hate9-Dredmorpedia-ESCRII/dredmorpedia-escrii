@@ -3791,7 +3791,7 @@ Spell Database for Dungeons of Dredmor. As always, don't look if you don't want 
 	<description text="Keep up the momentum of combat for enhanced combat ability. Rip and tear!" />
    </spell>
 
-<spell name="                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      Combat Momentum" type="self" icon="skills/momentum32.png" wand="0">
+<spell name="Combat Momentum" type="self" icon="skills/momentum32.png" wand="0">
 	<effect type="trigger" spell="Combat Momentum"/>
 	</spell> 
 
@@ -4968,7 +4968,7 @@ Spell Database for Dungeons of Dredmor. As always, don't look if you don't want 
 		</buff>
 	</spell> 
 	
-<spell name="                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      RemoveMasterSpell" type="self">
+<spell name="RemoveMasterSpell" type="self">
 	<effect type="removebuffbyname" name="The Master Spell"/>
 	</spell> 
 
@@ -5316,7 +5316,7 @@ Spell Database for Dungeons of Dredmor. As always, don't look if you don't want 
 	<effect type="trigger" requirebuffontrigger="1" requirebuffontriggername="Omniscient Strike" percent="60" spell="Deadsoul"/>
 	</spell>
   
-<spell name="                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  OmniscientStrikeBadassery" type="target">
+<spell name="OmniscientStrikeBadassery" type="target">
 	<effect type="trigger" requirebuffontrigger="1" requirebuffontriggername="Omniscient Strike" percent="80" spell="Shot In The Arm"/>
 	<effect type="trigger" requirebuffontrigger="1" requirebuffontriggername="Omniscient Strike" percent="80" spell="Shot In The Leg"/>
 	<effect type="trigger" requirebuffontrigger="1" requirebuffontriggername="Omniscient Strike" percent="70" spell="Shot In The Head"/>
@@ -5800,7 +5800,7 @@ Spell Database for Dungeons of Dredmor. As always, don't look if you don't want 
 	<effect type="damage" aethereal="1" aetherealF=".05"/>
 	</spell>
 	
-<spell name="                                                                                                                                                                                                                                                                                                                                                                                                                                                                     Woad Warrior" type="adjacent">
+<spell name="Woad Warrior" type="adjacent">
 <requirements weapon="3"/>
 	<effect type="damage" aethereal="1" aetherealF=".1"/>
 	<effect type="trigger" requirebuffontrigger="1" requirebuffontriggername="Two Ends Stance" spell="Two Ends Woad Warrior"/>
@@ -5951,7 +5951,7 @@ Spell Database for Dungeons of Dredmor. As always, don't look if you don't want 
 		</buff>
 	</spell>
 	
-<spell name="                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      Lone Ninja Badassery" type="self">
+<spell name="Lone Ninja Badassery" type="self">
 	<effect type="trigger" spell="Lone Ninja Law"/>
     <effect type="trigger" requirebuffontrigger="1" requirebuffontriggername="Bully Stance" spell="I Get Knocked Down And I Get Up Again. You're Never Gonna Keep Me Down!"/>
 	<effect type="trigger" requirebuffontrigger="1" requirebuffontriggername="Thousand Animal Fists Stance" spell="Kwon's Flail"/> 
@@ -6055,7 +6055,7 @@ Spell Database for Dungeons of Dredmor. As always, don't look if you don't want 
    <anim sprite="sprites/sfx/impactA/impactA" frames="6" framerate="60"  sfx="impact" centerEffect="0"/>
    </spell>
 
-<spell name="                                                                                                                                                                                                                                                                                                                                                                                                                                                                           Crossbow Blast!" type="targetmonster">
+<spell name="Crossbow Blast!" type="targetmonster">
 	<effect type="trigger" requirebuffontrigger="1" requirebuffontriggername="KISS Stance" spell="Crossbow Blast"/>
 	</spell>
 
@@ -6130,7 +6130,7 @@ Spell Database for Dungeons of Dredmor. As always, don't look if you don't want 
 	<description text="Bores the flesh of your enemies, sapping their strength and life-blood. Makes a bloody awful mess. Painful enough to keep casters from casting." />
 </spell>
 
-<spell name="                                                                                                                                                                                                                                                                                                                                                                                                                                                                       Fleshbored!" type="targetmonster">
+<spell name="Fleshbored!" type="targetmonster">
 	<effect type="trigger" requirebuffontrigger="1" requirebuffontriggername="Bon Jovi Stance" spell="Fleshbored"/>
 	</spell>
 	
@@ -6148,7 +6148,7 @@ Spell Database for Dungeons of Dredmor. As always, don't look if you don't want 
    <effect type="trigger" spell="Unresistable Knock" />
    </spell>
  
- <spell name="                                                                                                                                                                                                                                                                                                                                                                                                                                                                               Beaned!" type="targetmonster">
+ <spell name="Beaned!" type="targetmonster">
 	<effect type="trigger" requirebuffontrigger="1" requirebuffontriggername="Hulky Hurler" spell="Beaned"/>
 	</spell>
  
@@ -6166,7 +6166,7 @@ Spell Database for Dungeons of Dredmor. As always, don't look if you don't want 
    <effect type="knock" />
    </spell>
 
-<spell name="                                                                                                                                                                                                                                                                                                                                                                                                                                                                             Fleshbore!" type="target">
+<spell name="Fleshbore!" type="target">
 	<effect type="trigger" requirebuffontrigger="1" requirebuffontriggername="Fastball Specialist" spell="Fleshbore"/>
 	</spell> 
    
@@ -6207,7 +6207,7 @@ Spell Database for Dungeons of Dredmor. As always, don't look if you don't want 
 	<effect type="trigger" spell="Inverse Minion Law Trigger"/>
 	</spell>
 	
-<spell name="                                                                                                                                                                                                                                                                                                                                                                                                                                                                     Inverse Minion Law" type="self">
+<spell name="Inverse Minion Law" type="self">
 	<effect type="trigger" spell="Inverse Minion Law Remover"/>
 	<effect type="trigger" spell="Inverse Minion Trigger"/>
 	</spell>
